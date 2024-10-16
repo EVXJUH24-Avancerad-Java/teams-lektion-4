@@ -45,6 +45,43 @@ Vi skall försöka implementera detta idag, om det finns tid för det. Annars s�
 
 ---
 
+# Fråga
+
+Hur vet man om man ska "bygga om" sitt projekt från förra kursen med OOP eller om en ska bygga upp sitt nya projekt på nytt?
+
+# Svar
+
+Det är baserat på vad som är enklast. Man kan men måste inte bygga om projektet. Man får själv avgöra om man tror att det är enklare att bygga om eller inte. Om man är osäker så rekommenderar jag att man börjar om.
+
+---
+
+# Fråga
+
+Kan du förklara igen vad Gradle är? Förväntas det av oss att vi ska använda det när vi kodar och lämnar in uppgifter?
+
+# Svar
+
+Det förväntas inte. Gradle är ett "build system" som hanterar många olika saker. För vår användning så behövs det egentligen endast om vi behöver installera 3d party bibliotek, vilket inte är ett måste.
+
+För att hålla det enkelt: när ni skapar projekt i Intellij så väljer ni Gradle, men ni behöver inte göra något med Gradle direkt.
+
+---
+
+# Fråga
+
+Hur kan vi på bästa sätt förbereda oss inför gruppuppgiften den 4/11?
+
+# Svar
+
+Plugga och förstå de avancerade koncept som tas upp. Dessa nämns i kursplanen men här är de också:
+- Lambdas
+- Generics
+- Reflection
+- Streams
+- Annotations
+
+---
+
 # Gruppövning
 
 Lägg till så att tasks kan sparas till en lista (`List<Task>`). Vid startup skall man få valet att välja mellan fil eller list, och valet används sedan i resterande "session". 
