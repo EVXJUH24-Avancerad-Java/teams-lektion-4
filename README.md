@@ -31,6 +31,20 @@ Den innehåller ett flertal utmaningar/mindre uppgifter med olika avancerade kon
 
 ---
 
+# Fråga
+
+Är det möjligt att använda en TimerTask i todo-appen för att sätta en deadline och/eller hantera upprepande tasks?
+
+# Svar
+
+Ja och nej. Det är möjligt att säga "radera denna task om 5 minuter" eller "upprepa denna task om 10 minuter", men det är bättre att hantera det på annat sätt.
+
+Om en task raderas så måste även alla timers (för samma task) raderas. Det blir mycket mer att hålla koll på. Istället så kan man skapa flera olika "typer" av tasks med hjälp av inheritance och polymorphism.
+
+Vi skall försöka implementera detta idag, om det finns tid för det. Annars så skjuter vi på det till nästa vecka.
+
+---
+
 # Gruppövning
 
 Lägg till så att tasks kan sparas till en lista (`List<Task>`). Vid startup skall man få valet att välja mellan fil eller list, och valet används sedan i resterande "session". 
